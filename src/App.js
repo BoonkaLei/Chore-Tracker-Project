@@ -19,7 +19,7 @@ function App() {
       <h2>Chores</h2>
       <ul>
   {chores.map(chore => (
-    <li key={chore.id}>{chore.name} - {chore.status} </li>
+    <li key={chore.id}>{chore.name} - {chore.status}</li>
   ))}
 </ul>
   </div>
